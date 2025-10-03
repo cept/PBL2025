@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 3 PBL</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        nav {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            background-color: #2a2a2a;
+            color: #eee;
+            top: 0;
+            position: sticky;
+            padding: 15px;
+        }
+
+        nav span {
+            font-size: 24px;
+        }
+
+        nav ul li a{
+            text-decoration: none;
+            color: #eee;
+        }
+
+        nav ul li {
+            list-style: none;
+            padding-right: 30px;
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        img {
+            width: 100px;
+        }
+
+        .content-header {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .category, .produk-terlaris {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .item-category {
+            margin: 30px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .list-produk-terlaris {
+            margin: 30px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .item-produk-terlaris {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+        }
+
+        .diskon {
+            padding: 30px 0;
+            background-color: #eee;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .list-footer {
+            padding: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .footer-copyright {
+            padding: 15px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <span>Marina Food</span>
+        <ul>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="formulir.html">Isi Formulir</a></li>
+        </ul>
+    </nav>
+    
+    <main>
+        <section class="content-header">
+            <img src="images/10219.jpg" alt="">
+            <p>Makanan terbaru musim ini</p>
+        </section>
+        <hr>
+        <section class="category">
+            <h2>Kategori Pilihan</h2>
+            <div class="item-category">
+                <figure>
+                    <img src="images/4900_9_03.jpg" alt="">
+                    <figcaption>Makanan Indonesia</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/4900_9_03.jpg" alt="">
+                    <figcaption>Makanan India</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/4900_9_03.jpg" alt="">
+                    <figcaption>Makanan Jepang</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/4900_9_03.jpg" alt="">
+                    <figcaption>Makanan Italia</figcaption>
+                </figure>
+
+            </div>
+        </section>
+        <hr>
+        <section class="produk-terlaris">
+            <h2>Produk Terlaris</h2>
+            <div class="list-produk-terlaris">
+                <div class="item-produk-terlaris">
+                    <img src="images/930437e4-11b0-42a8-9474-31ec620146ca.jpg" alt="">
+                    <span>Cakue</span>
+                    <span><strong>Rp.2000,00</strong></span>
+                    <a href="">Link Detail</a>
+                </div>
+                <div class="item-produk-terlaris">
+                    <img src="images/930437e4-11b0-42a8-9474-31ec620146ca.jpg" alt="">
+                    <span>Odading</span>
+                    <span><strong>Rp.2000,00</strong></span>
+                    <a href="">Link Detail</a>
+                </div>
+                <div class="item-produk-terlaris">
+                    <img src="images/930437e4-11b0-42a8-9474-31ec620146ca.jpg" alt="">
+                    <span>Bala-bala</span>
+                    <span><strong>Rp.2000,00</strong></span>
+                    <a href="">Link Detail</a>
+                </div>
+                <div class="item-produk-terlaris">
+                    <img src="images/930437e4-11b0-42a8-9474-31ec620146ca.jpg" alt="">
+                    <span>Gehu</span>
+                    <span><strong>Rp.2000,00</strong></span>
+                    <a href="">Link Detail</a>
+                </div>
+            </div>
+        </section>
+        <hr>
+
+        <section class="diskon">
+            <h2>Diskon Akhir tahun</h2>
+            <p>Dapatkan potongan harga 50% </p>
+            <a href="">>>Lihat Promo<<</a>
+        </section>
+        <hr>
+
+    </main>
+
+    <footer>
+        <div class="list-footer">
+            <div>
+                <h3>Marina Food</h3>
+                <p>Dapaktkan dengan harga terjangkau</p>
+            </div>
+            <div>
+                <h3>Link Cepat</h3>
+                <a href="">Tentang Kami</a><br>
+                <a href="">FAQ</a><br>
+                <a href="">Kebijakan Privasi</a><br>
+            </div>
+            <div>
+                <h3>Hubungi Kami</h3>
+                <p>Email : aceprohmat10@gmail.com</p>
+                <p>Telephone/WA : 08818388614</p>
+            </div>
+            <div>
+                <h3>Ikuti Kami</h3>
+                <a href="">Facebook</a><br>
+                <a href="">Instagram</a><br>
+                <a href="">Twitter</a><br>
+            </div>
+        </div>
+
+        <hr>
+        <p class="footer-copyright">@Copyright 2025 all right reserved</p>
+    </footer>
+</body>
+</html>
