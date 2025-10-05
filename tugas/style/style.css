@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.logo {
+    font-size: 21px;
+}
+
+header {
+    width: 100%;
+    padding: 20px;
+    background-color: #eee;
+    margin: 10px 0;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    margin-left: 10px;
+    list-style: none;
+}
+
+.container {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 5% 10% auto;
+    grid-template-rows: 0.5fr repeat(3, 1fr);
+    gap: 5px;
+    background-color: #eee;
+}
+
+.container .item {
+    background-color: #ffe0c7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.satu {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.dua {
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.tiga {
+    grid-column-start: 1;
+    grid-column-end: span 2;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.empat {
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.lima {
+    grid-row-start: 3;
+    grid-row-end: span 2;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.enam {
+    border-top: 1px solid;
+    border-right: 1px solid;
+}
+
+.tujuh {
+    border-top: 1px solid;
+    border-left: 1px solid;
+}
+
+.delapan {
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.sembilan {
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #eee;
+    margin: 10px 0;
+    text-align: center;
+}
