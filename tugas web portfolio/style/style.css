@@ -12,9 +12,12 @@ body {
 
 nav {
     width: 100%;
-    margin-top: 30px;
+    padding: 20px 0;
     display: flex;
     justify-content: space-around; 
+    position: fixed;
+    top: 0;
+    background-color: #1D1616;
 }
 
 nav .logo {
@@ -39,6 +42,10 @@ nav ul li a {
     color: #EEEEEE;
     border-bottom: 3px solid #8E1616;
     padding-bottom: 8px;
+}
+
+main {
+    margin-top: 120px;
 }
 
 main .jumbotron {
